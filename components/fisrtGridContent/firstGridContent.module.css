@@ -1,0 +1,69 @@
+.container{
+    margin-top: 30px;
+}
+
+.cubeImage{
+    height: auto;
+    width: 100%;
+}
+
+.content{
+    margin-top: 30px;
+}
+
+h1{
+    font-size: 70px;
+    line-height: 1;
+}
+
+.subcontent p{
+    margin-top: 10px;
+    line-height:1.5;
+    font-size: 17px;
+    color: var(--neutral-dark-grayish-blue);
+}
+
+button{
+    margin-top: 2rem;
+    padding: 15px 30px;
+    letter-spacing: 2.5px;
+    font-weight: 800;
+    color: var(--neutral-very-dark-blue);
+    background-color: var(--primary-soft-red);
+    border: 0;
+    box-shadow: 2px 2px 2px #888888;
+    cursor: pointer;
+}
+
+.sideGrid{
+    background-color: var(--neutral-very-dark-blue);
+    padding: 30px;
+}
+
+.sideGrid h2{
+    color: var(--primary-soft-orange);
+    font-size: 35px;
+}
+
+.sideGrid .sideGridContent{
+    color: var(--neutral-off-white);
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.sideGridContent h3{
+    font-size: 15px;
+}
+
+.sideGridContent p{
+    color: var(--neutral-dark-grayish-blue);
+    font-size: 15px;
+}
+
+hr{
+    height: 2px;
+    border: 0;
+    background-color: var(--neutral-dark-grayish-blue);
+}

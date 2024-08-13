@@ -1,0 +1,30 @@
+.contentGrid{
+    display: flex;
+    gap: 1rem;
+}
+
+img{
+    height: auto;
+    width: 8rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+h2{
+    font-size: 35px;
+    color: var(--primary-soft-red);
+}
+
+h3{
+    font-weight: 800;
+    font-size: 17px;
+}
+
+p{
+    color: var(--neutral-dark-grayish-blue);
+}
